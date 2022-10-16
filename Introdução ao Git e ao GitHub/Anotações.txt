@@ -1,2 +1,26 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+Comando para listar as configurações globais do Git na sua máquina:
+git config --list
+Configura o nome nas configurações globais do Git na sua máquina:
+git config --global user.name "Nome Sobrenome"
+Limpa o nome nas configurações globais do Git na sua máquina:
+git config --global --unset user.name
+Configura o apelido nas configurações globais do Git na sua máquina:
+git config --global user.nickname "apelido"
+Limpa o apelido nas configurações globais do Git na sua máquina:
+git config --global --unset user.nickname
+Configura o email nas configurações globais do Git na sua máquina:
+git config --global user.email "nome@servidor.com"
+Limpa o email nas configurações globais do Git na sua máquina:
+git config --global --unset user.email
+Verifica o estado do repositório local:
+git status
+Adiciona os arquivos da pasta atual para o repositório local:
+git add .
+Commita as alterações do repositório local:
+git commit -m "mensagem"
+Clona um repositório remoto para sua máquina:
+git clone "link"
+Empurra/envia (ou atualiza) um repositório local para um repositório remoto:
+git push origin "nome da branch"
